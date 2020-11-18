@@ -1,0 +1,174 @@
+body {
+  background: #303030;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+nav ul li {
+	position: relative;
+	top: 60px;
+	font-size: 150%;
+	display: inline-block;
+	margin-right: 30px;
+	color: #6991AC;
+	cursor: pointer;
+	padding: 5px;
+	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+}
+
+nav ul li:hover{
+	background-color:#1d1d1d;
+	color: #fff;
+	border-radius: 5px;
+}
+
+nav ul li a{
+	text-decoration:none;
+}
+
+#contenido {
+	width: 1200px;
+	margin: 0 auto;
+	/*text-align: center;*/
+}
+
+img{
+	display: block;
+	margin: auto; 
+	width: 100px; 
+	height: auto;
+}
+
+header #logo img{
+	width: 400px; 
+	height: auto;
+}
+
+header #slider img{
+	position: relative;
+	width: 1000px; 
+	height: auto;
+	left: 0px;
+	bottom: -140px;
+	display: block;
+	margin: auto; 
+}
+
+p {
+  color: #ffffff;
+  font-size: 140%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: justify;
+}
+
+h1 {
+  color: #303030;
+}
+
+h2 {
+  font-size: 175%;
+  line-height: 155%;
+  font-weight: 500;
+  color: #329696;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+#textoPr1{
+	position: relative;
+	bottom: -150px;
+	left: -50px;
+	width: 550px;
+	height: 300px;
+	color: #FFF;
+	padding: 50px;
+}
+
+#textoPr2{
+	position: relative;
+	top: -250px;
+	left: 600px;
+	width: 550px;
+	height: 300px;
+	color: #FFF;
+	padding: 50px;
+}
+
+#textoPr3{
+	position: relative;
+	top: -150px;
+	left: -50px;
+	width: 550px;
+	height: 300px;
+	color: #FFF;
+	padding: 50px;
+}
+
+#textoPr4{
+	position: absolute;
+	top: 1247px;
+	left: 950px;
+	width: 550px;
+	height: 300px;
+	color: #FFF;
+	padding: 50px;
+}
+
+footer{
+	background: #2c3e50;
+ 	width: 100%;
+ 	height: 50%;
+  	overflow: auto;
+	top: -400px;
+	height: 150px;
+	display: block;
+	margin: auto; 
+}
+
+.icon-text-text {
+  float: left;
+  width: 60%;
+  padding: 4% 4% 2% 0;
+  font-size:
+}
+
+footer #correo img{
+	position: absolute;
+	left: 500px;
+	top: 1840px;
+	cursor: pointer;
+}
+
+footer #facebook img{
+	position: absolute;
+	left: 700px;
+	top: 1840px;
+	cursor: pointer;
+}
+
+footer #twiter img{
+	position: absolute;
+	left: 900px;
+	top: 1840px;
+	cursor: pointer;
+}
+
+footer #youtube img{
+	position: absolute;
+	left: 1100px;
+	top: 1840px;
+	cursor: pointer;
+}
+
+footer #instagram img{
+	position: absolute;
+	left: 1300px;
+	top: 1840px;
+	cursor: pointer;
+}

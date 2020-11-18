@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Designer Software Registrarse</title>
+    <link rel="stylesheet" href="../css/style_registrarse.css">
+  </head>
+  <body>
+      <div id="contenido">
+      <header>
+        <hgroup>
+          <h1>A</h1>
+          <a id="logo"><img src="../img/pics/logo.png" alt=""></a>
+        </hgroup> 
+          <nav>
+              <ul>
+                <li><a href="../index.html" class="current">Inicio</a></li>
+                <li><a href="../index.html" class="current">Soluciones</a></li>
+                <li><a href="../index.html" class="current">Productos</a></li>
+                <li><a href="../index.html" class="current">Conózcanos</a></li>
+                <li><a href="../index.html" class="current">Contáctenos</a></li>
+                <li><a href="registrarse.html" class="current">Registrarse</a></li>
+                <li><a href="iniciar_sesion.html" class="current">Iniciar Sesion</a></li>
+              </ul>
+          </nav>
+      </header> 
+      <div id="textoPr">
+        <hgroup>
+          <h1>Modulo de registrarse</h1>
+        </hgroup>
+        <div class="from">
+        <form action="../php/BD.php" method="POST">
+          <label for="nombres">Nombres:</label>
+          <input type="text" name="nombres" placeholder="Escribe tus nombres" required>
+          <label for="apellidos">Apellidos:</label>
+          <input type="text" name="apellidos" placeholder="Escribe tus apellidos" required>
+          <label for="edad">Edad:</label>
+          <input type="number" name="edad" placeholder="Escribe tu edad" required>
+          <label for="correo">Correo:</label>
+          <input type="text" name="correo" placeholder="Escribe tu correo" required>
+          <label for="contraseña">contraseña:</label>
+          <input type="password" name="contraseña" placeholder="Escribe tu contraseña" required>
+          <br>
+          <br>
+          <input type="submit" value="Registrarse" id="btnSubmit">
+        </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div id="correo"><a href="mailto:Gerencia@nomina.com.co"><img src="../img/pics/correo.jpg" alt=""></a></div>
+    <div id="facebook"><a href="https://www.facebook.com/nominads"><img src="../img/pics/facebook.jpg" alt=""></a></div>
+    <div id="twiter"><a href="https://twitter.com/NominaDesigner"><img src="../img/pics/twiter.jpg" alt=""></a></div>
+    <div id="youtube"><a href="https://www.youtube.com/user/nominads"><img src="../img/pics/youtube.jpg" alt=""></a></div>
+    <div id="instagram"><a href="https://www.instagram.com/nomina_designer"><img src="../img/pics/instagram.jpg" alt=""></a></div>
+  </footer>
+</html>
